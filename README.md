@@ -32,6 +32,9 @@ npm install && npm run build
 
 # Run the development server
 php artisan serve
+
+# Run tests (optional)
+php artisan test
 ```
 ### 🎨 UI & UX Changes
 
