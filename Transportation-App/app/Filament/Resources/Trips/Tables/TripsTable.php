@@ -21,7 +21,7 @@ class TripsTable
                 TextColumn::make('driver.name')
                     ->numeric()
                     ->sortable(),
-                TextColumn::make('vehicle.id')
+                TextColumn::make('vehicle.model')->label('Vehicle Model')
                     ->numeric()
                     ->sortable(),
                 TextColumn::make('starts_at')
