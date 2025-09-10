@@ -1,0 +1,9 @@
+<x-filament::widget>
+    <x-filament-apex-charts::widget
+        :id="$this->id"
+        :type="$this->getType()"
+        :datasets="$this->getDatasets()"
+        :labels="$this->getLabels()"
+        :colors="$this->getColors()"
+    />
+</x-filament::widget>
