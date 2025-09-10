@@ -93,21 +93,16 @@ Artisan scheduler updates trips in the background to keep real-time data accurat
 
 ### ✅ Testing
 
-- I used Pest for testing.
-- The following business logic is covered (≥80% coverage):
+  - I used Pest for testing.
+  - The following business logic is covered (≥80% coverage):
+    1. Trip Overlap Validation
+       - Prevents overlapping trips for drivers and vehicles.
 
-1. Trip Overlap Validation
+    2. Availability Logic
+       - Confirms drivers/vehicles are free or busy between given times.
 
-  - Prevents overlapping trips for drivers and vehicles.
+    3. KPIs
+      - Counts for active trips, completed trips this month, available drivers.
 
-2. Availability Logic
+    ![Here is a screenshot for the test result : ](Transportation-App\docs\images\test-result.jpeg)
 
-  - Confirms drivers/vehicles are free or busy between given times.
-
-3. KPIs
-
-  - Counts for active trips, completed trips this month, available drivers.
-
-  ![Here is a screenshot for the test result : ](Transportation-App\public\images\test-result.jpeg)
-
-  
