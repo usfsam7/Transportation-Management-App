@@ -104,5 +104,5 @@ Artisan scheduler updates trips in the background to keep real-time data accurat
     3. KPIs
       - Counts for active trips, completed trips this month, available drivers.
 
-    ![Here is a screenshot for the test result : ](https://drive.google.com/file/d/10U-h0-bIhxgG9O8IqV5dk1dEzwg6U5XZ/view?usp=sharing)
+    ![Here is a screenshot of the test results : ](image-1.png)
 
